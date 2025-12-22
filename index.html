@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Ana Sayfa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+        <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+            <a href="index.html" class="font-semibold tracking-tight">YBS 421 • Vize Ödevi</a>
+            <nav class="flex gap-2 text-sm">
+                <a class="px-3 py-2 rounded-lg bg-slate-900 text-white" href="index.html">Ana Sayfa</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="problem.html">Problem</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="hmw.html">HMW</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="etki-efor.html">Etki–Efor</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="kanvas-storyboard.html">Kanvas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-10 space-y-10">
+        <!-- Hero -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <div class="flex flex-col gap-4">
+                <div class="inline-flex items-center gap-2 text-xs font-medium text-slate-600">
+                    <span class="rounded-full bg-slate-100 px-3 py-1">YBS 4</span>
+                    <span class="rounded-full bg-slate-100 px-3 py-1">Girişimcilik ve İnovasyon</span>
+                    <span class="rounded-full bg-slate-100 px-3 py-1">Ara Sınav Ödevi</span>
+                </div>
+                <h1 class="text-3xl font-semibold tracking-tight">
+                    Proje Başlığı: <span class="text-slate-500">Spor Salonlarında Yoğunluk Tabanlı Zaman Planlama
+                        Sistemi</span>
+                </h1>
+                <p class="text-slate-700 leading-relaxed max-w-3xl">
+                    Bu çalışma, gerçek bir problem üzerine; empati haritası, kök neden analizi, HMW yöntemi,
+                    etki–efor matrisi ve iş modeli kanvası kullanılarak sistematik biçimde geliştirilmiş
+                    bir girişim fikrini sunmaktadır.
+                </p>
+                <div class="grid md:grid-cols-3 gap-4 pt-2">
+                    <div class="rounded-xl border bg-slate-50 p-4">
+                        <p class="text-xs font-semibold text-slate-500">Öğrenci / Grup</p>
+                        <p class="mt-1 font-medium">
+                            Yavuzhan İs • 22903024 • [Bireysel Çalışma]
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl border bg-slate-50 p-4">
+                        <p class="text-xs font-semibold text-slate-500">Seçilen Problem</p>
+                        <p class="mt-1 font-medium">
+                            Spor salonlarında yoğunluk bilgisinin paylaşılmaması nedeniyle üyelerin uygun saatlerde spor
+                            yapamaması
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl border bg-slate-50 p-4">
+                        <p class="text-xs font-semibold text-slate-500">Seçilen Fikir</p>
+                        <p class="mt-1 font-medium">
+                            Anlık yoğunluk ve saat bazlı tahmin sunan mobil uygulama (Quick Win)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Kullanılan yöntemler -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <h2 class="text-xl font-semibold tracking-tight">Bu Projede Kullanılan Yöntemler</h2>
+            <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="rounded-xl border p-4">
+                    <p class="font-medium">Empati Haritası</p>
+                    <p class="text-sm text-slate-600 mt-1">Düşünür • Hisseder • Söyler • Yapar</p>
+                </div>
+                <div class="rounded-xl border p-4">
+                    <p class="font-medium">Kök Neden Analizi</p>
+                    <p class="text-sm text-slate-600 mt-1">5N1K + 5 Why / Balık Kılçığı</p>
+                </div>
+                <div class="rounded-xl border p-4">
+                    <p class="font-medium">HMW</p>
+                    <p class="text-sm text-slate-600 mt-1">En az 3 HMW sorusu ve çözüm fikirleri</p>
+                </div>
+                <div class="rounded-xl border p-4">
+                    <p class="font-medium">Etki–Efor Matrisi</p>
+                    <p class="text-sm text-slate-600 mt-1">Quick Win / Stratejik Yatırım seçimi</p>
+                </div>
+                <div class="rounded-xl border p-4">
+                    <p class="font-medium">Business Model Canvas</p>
+                    <p class="text-sm text-slate-600 mt-1">9 bileşenli iş modeli</p>
+                </div>
+                <div class="rounded-xl border p-4">
+                    <p class="font-medium">Storyboard</p>
+                    <p class="text-sm text-slate-600 mt-1">Kullanıcı yolculuğu (4–5 adım)</p>
+                </div>
+            </div>
+
+            <div class="mt-6 flex gap-3">
+                <a href="problem.html"
+                    class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-white text-sm font-medium hover:bg-slate-800">
+                    Başla: Problem Tanımı →
+                </a>
+                <a href="kanvas-storyboard.html"
+                    class="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-medium hover:bg-slate-50">
+                    Kanvası Gör
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-10 text-center text-sm text-slate-500">
+         • Yavuzhan İs
+    </footer>
+</body>
+</html>

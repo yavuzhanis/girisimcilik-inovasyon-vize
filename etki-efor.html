@@ -1,0 +1,153 @@
+<!-- etki-efor.html -->
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vize Ödevi | Etki–Efor Analizi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="font-semibold tracking-tight">YBS 421 • Vize Ödevi</a>
+      <nav class="flex gap-2 text-sm">
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="index.html">Ana Sayfa</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="problem.html">Problem</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="hmw.html">HMW</a>
+        <a class="px-3 py-2 rounded-lg bg-slate-900 text-white" href="etki-efor.html">Etki–Efor</a>
+        <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="kanvas-storyboard.html">Kanvas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-4 py-10 space-y-8">
+    <!-- Intro -->
+    <section class="rounded-2xl bg-white border p-8 shadow-sm">
+      <h1 class="text-2xl font-semibold tracking-tight">3. Etki–Efor Analizi ile Fikir Seçimi</h1>
+      <p class="mt-2 text-slate-700">
+        Üretilen fikirler etki–efor matrisine yerleştirilmiş; <b>Quick Win</b> veya <b>Stratejik Yatırım</b> alanından bir fikir seçilmiştir.
+      </p>
+    </section>
+
+    <!-- Matrix -->
+    <section class="rounded-2xl bg-white border p-6 shadow-sm">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-xl font-semibold">Etki–Efor Matrisi</h2>
+          <p class="text-sm text-slate-600 mt-1">Y ekseni: Etki (düşük→yüksek), X ekseni: Efor (düşük→yüksek)</p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="rounded-full bg-slate-100 px-3 py-1 font-medium">Fikir = etiket</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 font-medium">Seçilen fikir = vurgulu</span>
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- High Impact / Low Effort -->
+        <div class="rounded-2xl border bg-emerald-50 p-5">
+          <div class="flex items-center justify-between">
+            <p class="font-semibold">Quick Win</p>
+            <span class="text-xs font-medium text-slate-600">Yüksek Etki • Düşük Efor</span>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="inline-flex items-center rounded-full bg-emerald-700 px-3 py-1 text-xs font-semibold text-white">
+              ✅ Anlık yoğunluk göstergesi (Uygulama)
+            </span>
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Saat bazlı yoğunluk grafiği
+            </span>
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              “En sakin saat” bildirimi
+            </span>
+          </div>
+        </div>
+
+        <!-- High Impact / High Effort -->
+        <div class="rounded-2xl border bg-indigo-50 p-5">
+          <div class="flex items-center justify-between">
+            <p class="font-semibold">Stratejik Yatırım</p>
+            <span class="text-xs font-medium text-slate-600">Yüksek Etki • Yüksek Efor</span>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Turnike / sensör entegrasyonu
+            </span>
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Çok şubeli zincir entegrasyonu
+            </span>
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Şehir dışı anlaşmalı salon ağı (harita)
+            </span>
+          </div>
+        </div>
+
+        <!-- Low Impact / Low Effort -->
+        <div class="rounded-2xl border bg-amber-50 p-5">
+          <div class="flex items-center justify-between">
+            <p class="font-semibold">Düşük Öncelik</p>
+            <span class="text-xs font-medium text-slate-600">Düşük Etki • Düşük Efor</span>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Statik “en yoğun saatler” posteri
+            </span>
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Sosyal medya story duyuruları
+            </span>
+          </div>
+        </div>
+
+        <!-- Low Impact / High Effort -->
+        <div class="rounded-2xl border bg-rose-50 p-5">
+          <div class="flex items-center justify-between">
+            <p class="font-semibold">Kaçınılacak</p>
+            <span class="text-xs font-medium text-slate-600">Düşük Etki • Yüksek Efor</span>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Tam otomatik kamera ile sayım (ilk aşama için)
+            </span>
+            <span class="inline-flex items-center rounded-full bg-white/80 px-3 py-1 text-xs font-medium text-slate-800 border">
+              Komple yenileme / altyapı dönüşümü
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selected Idea -->
+      <div class="mt-6 rounded-2xl border bg-white p-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
+          <div>
+            <p class="text-xs font-semibold text-slate-500">Seçilen Fikir</p>
+            <h3 class="mt-1 text-lg font-semibold">
+              Mobil uygulama üzerinden <span class="text-emerald-700">anlık yoğunluk + saat bazlı tahmin</span>
+            </h3>
+            <p class="mt-2 text-sm text-slate-600">
+              Konum: <b>Quick Win (Yüksek Etki – Düşük/Orta Efor)</b>
+            </p>
+          </div>
+          <span class="inline-flex items-center rounded-full bg-emerald-700 px-3 py-1 text-xs font-semibold text-white">
+            Quick Win
+          </span>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-sm font-semibold">Seçim Gerekçeleri</p>
+          <ul class="mt-2 list-disc pl-5 text-sm text-slate-700 space-y-1">
+            <li>Üyenin temel problemini doğrudan çözer (uygun saat seçimi).</li>
+            <li>Salon için görece düşük maliyetli ve hızlı uygulanabilir.</li>
+            <li>Motivasyonu artırır; üyelik iptallerini azaltabilir.</li>
+          </ul>
+        </div>
+
+        <div class="mt-6 flex justify-between">
+          <a class="text-sm font-medium hover:underline" href="hmw.html">← HMW & Çözümler</a>
+          <a class="text-sm font-medium hover:underline" href="kanvas-storyboard.html">İş Modeli & Storyboard →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

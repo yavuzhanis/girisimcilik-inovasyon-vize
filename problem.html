@@ -1,0 +1,155 @@
+<!-- problem.html -->
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vize Ödevi | Problem Tanımı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+        <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+            <a href="index.html" class="font-semibold tracking-tight">YBS 421 • Vize Ödevi</a>
+            <nav class="flex gap-2 text-sm">
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="index.html">Ana Sayfa</a>
+                <a class="px-3 py-2 rounded-lg bg-slate-900 text-white" href="problem.html">Problem</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="hmw.html">HMW</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="etki-efor.html">Etki–Efor</a>
+                <a class="px-3 py-2 rounded-lg hover:bg-slate-100" href="kanvas-storyboard.html">Kanvas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-10 space-y-8">
+        <!-- Intro -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <h1 class="text-2xl font-semibold tracking-tight">1. Problem Tanımlama</h1>
+            <p class="mt-2 text-slate-700">
+                Bu sayfada spor salonu üyelerinin yaşadığı problem; hedef kullanıcı tanımı, empati haritası
+                ve kök neden analizi kullanılarak detaylı ve ölçülebilir biçimde tanımlanmıştır.
+            </p>
+        </section>
+
+        <!-- Persona -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <h2 class="text-xl font-semibold">Hedef Kullanıcı (Persona)</h2>
+
+            <div class="mt-4 grid md:grid-cols-4 gap-4">
+                <div class="rounded-xl border bg-slate-50 p-4">
+                    <p class="text-xs font-semibold text-slate-500">Kullanıcı</p>
+                    <p class="mt-1 font-medium">Spor Salonu Üyesi</p>
+                </div>
+                <div class="rounded-xl border bg-slate-50 p-4">
+                    <p class="text-xs font-semibold text-slate-500">Yaş Aralığı</p>
+                    <p class="mt-1 font-medium">18–45</p>
+                </div>
+                <div class="rounded-xl border bg-slate-50 p-4">
+                    <p class="text-xs font-semibold text-slate-500">Yaşam Tarzı</p>
+                    <p class="mt-1 font-medium">Yoğun (okul / iş)</p>
+                </div>
+                <div class="rounded-xl border bg-slate-50 p-4">
+                    <p class="text-xs font-semibold text-slate-500">Temel İhtiyaç</p>
+                    <p class="mt-1 font-medium">Uygun saatlerde verimli spor</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathy Map -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <h2 class="text-xl font-semibold">Empati Haritası</h2>
+
+            <div class="mt-4 grid md:grid-cols-2 gap-4">
+                <div class="rounded-xl border p-5">
+                    <p class="font-semibold">Düşünür</p>
+                    <ul class="mt-2 list-disc pl-5 text-sm text-slate-700 space-y-1">
+                        <li>“Bu saatte salon çok kalabalık mı?”</li>
+                        <li>“Boşa zaman mı harcayacağım?”</li>
+                        <li>“Bugün gitmesem mi?”</li>
+                    </ul>
+                </div>
+
+                <div class="rounded-xl border p-5">
+                    <p class="font-semibold">Hisseder</p>
+                    <ul class="mt-2 list-disc pl-5 text-sm text-slate-700 space-y-1">
+                        <li>Motivasyon düşüklüğü</li>
+                        <li>Stres ve hayal kırıklığı</li>
+                        <li>Spordan soğuma</li>
+                    </ul>
+                </div>
+
+                <div class="rounded-xl border p-5">
+                    <p class="font-semibold">Söyler</p>
+                    <ul class="mt-2 list-disc pl-5 text-sm text-slate-700 space-y-1">
+                        <li>“Hep dolu oluyor.”</li>
+                        <li>“Saatini denk getiremiyoruz.”</li>
+                        <li>“Keşke önceden bilsek.”</li>
+                    </ul>
+                </div>
+
+                <div class="rounded-xl border p-5">
+                    <p class="font-semibold">Yapar</p>
+                    <ul class="mt-2 list-disc pl-5 text-sm text-slate-700 space-y-1">
+                        <li>Spor saatini erteler</li>
+                        <li>Spora gitmeyi bırakır</li>
+                        <li>Spor salonu değiştirir</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Root Cause -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <h2 class="text-xl font-semibold">Kök Neden Analizi</h2>
+
+            <div class="mt-4 grid lg:grid-cols-2 gap-4">
+                <!-- 5N1K -->
+                <div class="rounded-xl border p-5">
+                    <p class="font-semibold">5N1K Analizi</p>
+                    <div class="mt-3 grid grid-cols-2 gap-3 text-sm">
+                        <div class="rounded-lg bg-slate-50 p-3"><b>Ne?</b> Yoğunluk bilgisinin olmaması</div>
+                        <div class="rounded-lg bg-slate-50 p-3"><b>Neden?</b> Dijital takip sisteminin olmaması</div>
+                        <div class="rounded-lg bg-slate-50 p-3"><b>Kim?</b> Spor salonu üyeleri</div>
+                        <div class="rounded-lg bg-slate-50 p-3"><b>Nerede?</b> Spor salonlarında</div>
+                        <div class="rounded-lg bg-slate-50 p-3"><b>Ne zaman?</b> Özellikle akşam saatlerinde</div>
+                        <div class="rounded-lg bg-slate-50 p-3"><b>Nasıl?</b> Plansız ziyaret → kalabalık</div>
+                    </div>
+                </div>
+
+                <!-- 5 Why -->
+                <div class="rounded-xl border p-5">
+                    <p class="font-semibold">5 Why Analizi</p>
+                    <ol class="mt-3 list-decimal pl-5 text-sm text-slate-700 space-y-1">
+                        <li>Salonlar neden kalabalık oluyor? → Aynı saatlerde yoğun talep var.</li>
+                        <li>Üyeler bunu neden bilmiyor? → Yoğunluk bilgisi paylaşılmıyor.</li>
+                        <li>Neden paylaşılmıyor? → Ölçüm ve analiz sistemi yok.</li>
+                        <li>Neden sistem yok? → Ek maliyet ve planlama eksikliği.</li>
+                        <li>Bu neden önemli? → Motivasyon düşüyor, üyelik iptali artıyor.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Statement -->
+        <section class="rounded-2xl bg-white border p-8 shadow-sm">
+            <h2 class="text-xl font-semibold">Net Problem Tanımı</h2>
+            <p class="mt-4 text-slate-800 leading-relaxed">
+                <b>Problem Cümlesi:</b><br />
+                Spor salonu üyeleri, salonların yoğunluk bilgisi sunmaması nedeniyle kendileri için uygun
+                saatleri belirleyememekte; bu durum motivasyon kaybına ve spor alışkanlığının
+                sürdürülememesine yol açmakta, dolayısıyla daha planlı ve <b>şahane</b> bir spor deneyimine
+                ihtiyaç duyulmaktadır.
+            </p>
+
+            <div class="mt-6 flex justify-between">
+                <a class="text-sm font-medium hover:underline" href="index.html">← Ana Sayfa</a>
+                <a class="text-sm font-medium hover:underline" href="hmw.html">HMW & Çözümler →</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
